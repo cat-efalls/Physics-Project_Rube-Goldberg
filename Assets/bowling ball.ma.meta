@@ -1,30 +1,43 @@
 fileFormatVersion: 2
-guid: 2b97ae0b1f9445448aa9fb6a0662692a
-timeCreated: 1505837111
+guid: 793c2538f2a5349498621c4afb9efdd4
+timeCreated: 1506395654
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: curve1
-    100002: curve2
-    100004: curve3
-    100006: pCube1
-    100008: //RootNode
-    100010: group
-    100012: pCube2
-    400000: curve1
-    400002: curve2
-    400004: curve3
-    400006: pCube1
-    400008: //RootNode
-    400010: group
-    400012: pCube2
-    2300000: pCube1
-    2300002: pCube2
-    3300000: pCube1
-    3300002: pCube2
-    4300000: pCube1
-    4300002: pCube2
+    100000: //RootNode
+    100002: group
+    100004: pasted__pCylinder2
+    100006: pCylinder1
+    100008: pCylinder2
+    100010: pSphere1
+    100012: pSphere2
+    100014: pSphere3
+    100016: pSphere4
+    100018: transform1
+    100020: transform2
+    100022: transform3
+    100024: transform4
+    100026: transform5
+    100028: transform6
+    400000: //RootNode
+    400002: group
+    400004: pasted__pCylinder2
+    400006: pCylinder1
+    400008: pCylinder2
+    400010: pSphere1
+    400012: pSphere2
+    400014: pSphere3
+    400016: pSphere4
+    400018: transform1
+    400020: transform2
+    400022: transform3
+    400024: transform4
+    400026: transform5
+    400028: transform6
+    2300000: pSphere4
+    3300000: pSphere4
+    4300000: pSphere4
     9500000: //RootNode
   materials:
     importMaterials: 1

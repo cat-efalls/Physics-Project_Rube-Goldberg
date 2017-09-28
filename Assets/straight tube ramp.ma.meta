@@ -1,24 +1,20 @@
 fileFormatVersion: 2
-guid: 2b97ae0b1f9445448aa9fb6a0662692a
-timeCreated: 1505837111
+guid: 01a37600feaa1ef469d7579f35f02e1a
+timeCreated: 1506403174
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
     100000: curve1
-    100002: curve2
-    100004: curve3
-    100006: pCube1
+    100002: group
+    100004: pCube1
+    100006: pCube2
     100008: //RootNode
-    100010: group
-    100012: pCube2
     400000: curve1
-    400002: curve2
-    400004: curve3
-    400006: pCube1
+    400002: group
+    400004: pCube1
+    400006: pCube2
     400008: //RootNode
-    400010: group
-    400012: pCube2
     2300000: pCube1
     2300002: pCube2
     3300000: pCube1

@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: ramp.ma
-//Last modified: Tue, Sep 26, 2017 05:15:28 AM
+//Name: straight tube ramp.ma
+//Last modified: Tue, Sep 26, 2017 05:15:42 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -264,19 +264,19 @@ createNode nurbsCurve -n "curveShape1" -p "curve1";
 		0.49528621247610749 2.2007497467096242e-15 9.9112957392171772
 		;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "382B12F7-4EDF-41BC-B115-C196E859958A";
+	rename -uid "CB5ED2C1-4075-EE0F-E030-E28AD95FAD13";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "8101317F-4AB1-0D84-A104-8BB34D83D6FE";
+	rename -uid "CB380E7D-4725-84AC-9A15-30921C7220A6";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "190FA109-420F-5F23-9947-3793933F5E42";
+	rename -uid "C8FC5F66-4CEF-E23E-6843-25B22BE06E29";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "BE404023-4197-DE84-0E2D-7D8BBDA09283";
+	rename -uid "7F97045C-4B9F-3B8A-4446-47A15401A251";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "45BB32E2-43D9-F417-763F-46B5716AB861";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "82070A10-4851-BC83-31FB-59B1CDCC95B6";
+	rename -uid "8B1E2D43-47C4-E908-86D4-8683C0C7422B";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "71B44F78-44BE-5DAD-B0D0-829512D4308C";
 	setAttr ".g" yes;
@@ -651,4 +651,4 @@ connectAttr "deleteComponent2.og" "deleteComponent3.ig";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
-// End of ramp.ma
+// End of straight tube ramp.ma
